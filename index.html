@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Days+One&display=swap">
+    <link rel="icon" href="img/favicon.png">
+    <title>Games website</title>
+</head>
+
+<body class="bg-dark text-light">
+    <div class="div fixed-top bg-dark">
+        <nav class="navbar navbar-expand-lg border-gray-800 border-bottom">
+            <div class="container-xl">
+                <div class="navbar-brand text-primary d-flex gap-3 align-items-center">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span class="fw-bold">GameArena</span>
+                </div>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span>
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                </button>
+                <div class="d-none d-lg-flex justify-content-between w-100" id="">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link table-active text-primary" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OUR GAMES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">What We Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex gap-3 align-items-center" role="sign-in">
+                        <button type="button" class="border-0 bg-transparent text-light hover-text-primary">
+                            <i class="fa-regular fa-bell"></i>
+                        </button>
+                        <button type="button" class="border-0 bg-transparent text-light hover-text-primary">
+                            <i class="fa-regular fa-message"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary text-dark border-0 btn-shine fw-bold">Sign
+                            In</button>
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="div border-gray-800 border-bottom d-lg-none collapse navbar-collapse py-4"
+            id="navbarSupportedContent">
+            <div class="container-xl">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link table-active text-primary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OUR GAMES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What We Do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tournaments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex flex-column align-items-start pt-4 border-gray-800 border-top gap-4" role="sign-in">
+                    <button type="button"
+                        class="border-0 bg-transparent text-light hover-text-primary d-flex gap-3 align-items-center">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="">Notifications</span>
+                    </button>
+                    <button type="button"
+                        class="border-0 bg-transparent text-light hover-text-primary d-flex gap-3 align-items-center">
+                        <i class="fa-regular fa-message"></i>
+                        <span class="">Messages</span>
+                    </button>
+                    <button type="button"
+                        class="btn btn-primary text-dark border-0 btn-shine align-self-stretch fw-bold">Sign In</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- --- hero ---- -->
+
+
+    <section id="home" class="hero min-vh-100 d-flex align-items-center position-relative">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-80"></div>
+        <div class="container z-1 ">
+            <div class="row gy-5 gy-lg-0 gx-lg-5">
+                <div class="col-12 col-lg-6 d-flex flex-column">
+                    <h1 class="display-4 text-center text-lg-start fw-bold mb-3">THE ULTIMATE
+                        <br>
+                        <span class="text-primary">GAMING</span>
+                        <br>
+                        EXPERIENCE
+                    </h1>
+
+                    <p class="text-center text-lg-start mb-4">
+                        Join millions of gamers worldwide in the most competitive eSports tournaments. Experience
+                        next-level
+                        gaming with cutting-edge technology and endless possibilities.
+                    </p>
+
+                    <form
+                        class="d-flex flex-column gap-3 align-self-stretch align-self-lg-start flex-md-row align-self-md-center"
+                        role="sign-in">
+                        <button type="button"
+                            class="btn btn-primary text-dark border-0 btn-shine fw-bold px-4 py-3">Start
+                            Gaming Now</button>
+                        <button type="button" class="btn btn-outline-primary btn-shine fw-bold px-4 py-3">Watch
+                            Tournaments</button>
+
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="content position-relative p-2 rounded-5 bg-gradient">
+                        <div class="overflow-hidden rounded-5">
+                            <img src="img/hero-img.png" alt="heroimg" class="img w-100 object-fit-cover">
+                        </div>
+                        <div
+                            class="box-card d-flex p-4 border position-absolute bg-dark align-items-center gap-2 rounded-3">
+                            <div class="text-primary">
+                                <i class="fa-solid fa-trophy"></i>
+                            </div>
+                            <div class="">
+                                <p class="text-secondary flex-column d-flex m-0">
+                                    <span>Active Players</span>
+                                    <span class="fs-4 fw-bold text-light">2.5M+</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="our-games">
+        <div class="container-xl flex-column align-items-center d-flex">
+            <span
+                class="break decore text-primary position-relative d-inline-flex align-items-center gap-2 fw-bold mb-2">
+                OUR GAMES
+            </span>
+            <h2 class="display-6 mb-5">Our Latest Games</h2>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner mb-5">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="img-s col ">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div>
+
+                                    <img src="img/latest-games-1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-4.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-5.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-6.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-7.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-8.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-9.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-6.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-9.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-4.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-4.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-5.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-6.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-7.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-8.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-9.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-5.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-4.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-6.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-7.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-4.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-5.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-6.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-lg-none">
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-8.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-9.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-lg-flex d-none">
+
+                            <div class="img-s col">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-7.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-md-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-8.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="img-s col d-none d-lg-block">
+                                <div class="hover-border-apear position-relative rounded-5 overflow-hidden">
+                                    <div class="upper d-flex gap-2 align-items-center position-absolute z-2">
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-trophy text-primary"></i>
+                                            <span>SPORTS</span>
+                                        </div>
+                                        <div class="badge rounded-pill py-1 px-2 d-flex gap-1">
+                                            <i class="fa-solid fa-fire text-primary"></i>
+                                            <span>LEAGUE</span>
+                                        </div>
+                                    </div>
+                                    <div class="gradaint w-100 h-50 position-absolute text-dark z-2">
+                                        <span class="text position-absolute p-4 fs-5 fw-bold">Epic Gaming League</span>
+                                    </div><img src="img/latest-games-9.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex gap-4 justify-content-center">
+                    <div class="arrows d-flex gap-3">
+
+                        <button class="carousel-control-prev position-relative w-auto" type="button"
+                            data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="arrow p-3 border border-2 rounded-circle d-flex align-items-center"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-left fs-5"></i>
+                            </span>
+
+                        </button>
+                        <button class="carousel-control-next position-relative w-auto" type="button"
+                            data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="arrow p-3 border border-2 rounded-circle d-flex align-items-center"
+                                aria-hidden="true">
+                                <i class="fa-solid fa-arrow-right fs-5"></i>
+                            </span>
+
+                        </button>
+
+                    </div>
+                    <button type="button" class="btn btn-outline-primary btn-shine fw-bold px-4 py-3">
+                        VIEW ALL GAMES
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="what-we-do">
+        <div class="container-xl flex-column align-items-center d-flex">
+            <span
+                class="break decore text-primary position-relative d-inline-flex align-items-center gap-2 fw-bold mb-2">
+                WHAT WE DO
+            </span>
+            <h2 class="display-6 text-center">More Than Just Games</h2>
+            <p class="display-6 fw-bold mb-5 text-center">We Build <span class="text-primary">Interactive</span>
+                Journeys</p>
+            <div class="row flex-grow-1 g-3">
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div class="bg-card-dark border border-1  h-100 rounded-4 overflow-hidden">
+                        <img src="img/what-we-do-1.png" alt="img" class="object-fit-cover w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div class="bg-card-dark border border-1  h-100 rounded-4 overflow-hidden">
+                        <img src="img/what-we-do-2.png" alt="img" class="object-fit-cover w-100 h-100">
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 aspect-square">
+                    <div
+                        class="tri-out bg-card-dark border border-1 h-100 rounded-4 hover-border-apear overflow-hidden position-relative d-flex align-items-center justify-content-center text-primary">
+                        <div class="tri-t position-absolute"></div>
+                        <div class="tri-b position-absolute"></div>
+                        <div class="bg-as-border p-4 rounded-3">
+                            <i class="fa-solid fa-desktop"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container-xl px-5 overflow-auto">
+        <div class="glow mx-auto">
+        </div>
+    </div>
+
+
+    <div id="sliders" class="">
+        <div class="slider-container overflow-hidden mb-3">
+            <div class="slider-track d-flex position-relative h-96">
+                <div class="grade position-absolute h-100 z-2"></div>
+                <!-- Group 1 -->
+                <div class="slide-group d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+                <!-- Group 2 (Exact Duplicate for Seamless Loop) -->
+                <div class="slide-group d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+                <!-- Group 3 (Exact Duplicate for Seamless Loop) -->
+                <div class="slide-group d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+            </div>
+        </div>
+        <div class="slider-container-d overflow-hidden">
+            <div class="slider-track d-flex position-relative h-96">
+                <div class="grade position-absolute h-100 z-2"></div>
+                <!-- Group 1 -->
+                <div class="slide-group-r d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+                <!-- Group 2 (Exact Duplicate for Seamless Loop) -->
+                <div class="slide-group-r d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+                <!-- Group 3 (Exact Duplicate for Seamless Loop) -->
+                <div class="slide-group-r d-flex gap-3 ps-3">
+                    <img src="img/logo-1.jpg" alt="logo 1" class="slide-item rounded-4">
+                    <img src="img/logo-2.jpg" alt="logo 2" class="slide-item rounded-4">
+                    <img src="img/logo-3.jpg" alt="logo 3" class="slide-item rounded-4">
+                    <img src="img/logo-4.jpg" alt="logo 4" class="slide-item rounded-4">
+                    <img src="img/logo-5.jpg" alt="logo 5" class="slide-item rounded-4">
+                    <img src="img/logo-6.jpg" alt="logo 6" class="slide-item rounded-4">
+                    <img src="img/logo-7.jpg" alt="logo 7" class="slide-item rounded-4">
+                    <img src="img/logo-8.jpg" alt="logo 8" class="slide-item rounded-4">
+                    <img src="img/logo-9.jpg" alt="logo 9" class="slide-item rounded-4">
+                    <img src="img/logo-10.jpg" alt="logo 10" class="slide-item rounded-4">
+                    <img src="img/logo-11.jpg" alt="logo 11" class="slide-item rounded-4">
+                    <img src="img/logo-12.jpg" alt="logo 12" class="slide-item rounded-4">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <section id="our-team">
+        <div class="container-xl flex-column align-items-center d-flex w-100">
+            <span
+                class="break decore text-primary position-relative d-inline-flex align-items-center gap-2 fw-bold mb-2">
+                OUR TEAM
+            </span>
+            <h2 class="display-6 text-center mb-3">Our Best Team Members</h2>
+            <p class="fs-6 fw-bold mb-5 text-center text-secondary">Meet the professional gamers and experts behind our
+                success</p>
+            <div class="row g-3 w-100">
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-1.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-1.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-2.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-2.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-3.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-3.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-4.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-4.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-5.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-5.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-6.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-6.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-7.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-7.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="img-out rounded-3 overflow-hidden h-300 position-relative">
+                        <div class="player-card position-relative w-100 h-100">
+                            <div class="gray position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-8.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="color position-absolute">
+                                <div class="info d-flex p-3 position-absolute bottom-0 justify-content-between w-100">
+                                    <div class="left">
+                                        <h3 class="fs-4 text-light">Alex "Phantom" Chen</h3>
+                                        <p class="fs-6 fw-medium m-0 text-primary">Pro Player - VALORANT</p>
+                                        <p class="fs-smaller text-secondary m-0 fw-bold">World Champion 2023</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="fs-4 text-primary m-0">PHANTOM</p>
+                                    </div>
+                                </div>
+                                <img src="img/avatar-8.png" alt="img" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="get-in-touch">
+        <div class="container-xl flex-column align-items-center d-flex w-100">
+            <span
+                class="break decore text-primary position-relative d-inline-flex align-items-center gap-2 fw-bold mb-2">
+                CONTACT US
+            </span>
+            <h2 class="display-6 text-center mb-3">Get In Touch</h2>
+            <p class="fs-6 fw-bold mb-5 text-center text-secondary">Have questions or need support? We're here to help!
+            </p>
+
+            <div class="row w-100 gx-0 gx-lg-5 gy-5">
+                <div class="col-lg-6 left-col">
+                    <div class="inner d-flex flex-column gap-4">
+                        <div class="locat bg-as-border d-flex align-items-center p-4 gap-4 rounded-4">
+                            <div class="p-3 bg-primary text-black rounded-circle fs-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="flex-column d-flex m-0">
+                                <h3 class="fs-5 fw-bold text-light m-0">Our Location</h3>
+                                <span class="text-secondary">123 Gaming Street, Esports City, EC 12345</span>
+                            </div>
+
+                        </div>
+                        <div class="phon bg-as-border d-flex align-items-center p-4 gap-4 rounded-4">
+                            <div class="p-3 bg-primary text-black rounded-circle fs-3">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="flex-column d-flex m-0">
+                                <h3 class="fs-5 fw-bold text-light m-0">Phone Number</h3>
+                                <span class="text-secondary">+1 (555) 123-4567</span>
+                            </div>
+
+                        </div>
+                        <div class="email bg-as-border d-flex align-items-center p-4 gap-4 rounded-4">
+                            <div class="p-3 bg-primary text-black rounded-circle fs-3">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div class="flex-column d-flex m-0">
+                                <h3 class="fs-5 fw-bold text-light m-0">Email Address</h3>
+                                <span class="text-secondary">contact@gamearena.com</span>
+                            </div>
+
+                        </div>
+                        <div class="social bg-gradient align-items-center p-4 gap-4 rounded-4">
+
+                            <div class="flex-column d-flex mb-3">
+                                <h3 class="fs-5 fw-bold text-black mb-2">Join Our Community</h3>
+                                <span class="text-black">Connect with us on social media for the latest updates</span>
+                            </div>
+
+                            <div class="d-flex gap-2">
+                                <div class="p-3 text-primary bg-black rounded-circle">
+                                    <i class="fa-brands fa-discord"></i>
+                                </div>
+                                <div class="p-3 text-primary bg-black rounded-circle">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </div>
+                                <div class="p-3 text-primary bg-black rounded-circle">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="p-3 text-primary bg-black rounded-circle">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 right-col">
+                    <div class="inner bg-as-border rounded-4 p-5">
+                        <form class="">
+                            <h3 class="mb-4">Send us a Message</h3>
+                            <div class="row">
+
+                                <div class="mb-3 col-md-6">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control bg-field" placeholder="yur frist name"
+                                        id="firstName">
+                                </div>
+
+                                <div class="mb-3 col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control bg-field" placeholder="yur last name"
+                                        id="lastName">
+                                </div>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control bg-field" placeholder="your email" id="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="select" class="form-label">Subject</label>
+                                <select id="select" class="form-control form-select bg-field text-white-50">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+
+
+
+
+
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control bg-field" id="exampleFormControlTextarea1"
+                                    placeholder="tell us about you" rows="3"></textarea>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="check">
+                                <label class="form-check-label fs-smaller text-secondary" for="check">Subscribe to our
+                                    newsletter for gaming updates</label>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-primary text-dark border-0 btn-shine fw-bold w-100 d-flex align-items-center justify-content-center p-3"><span>Send
+                                    Message</span> <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                        <hr class="mt-5">
+                        <div class="row text-center">
+                            <div class="col-6 p-4">
+                                <div class="text-primary fw-bold mb-1 fs-3">24/7</div>
+                                <p class="text-secondary fs-6 m-0 fw-medium">Support Available</p>
+                            </div>
+                            <div class="col-6 p-4">
+                                <div class="text-primary fw-bold mb-1 fs-3">&lt;1hr</div>
+                                <p class="text-secondary fs-6 m-0 fw-medium">Average Response</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <footer class="bg-black text-secondary pt-5 pb-4">
+        <div class="container-xl">
+            <div class="row g-4 justify-content-between">
+                <div class="col-6 col-lg-2 fs-5">
+                    <div class="navbar-brand text-primary d-flex gap-3 align-items-center mb-4">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span class="fw-bold">GameArena</span>
+                    </div>
+                    <p class="text-secondary mb-0 fs-6">The ultimate destination for competitive gaming, esports
+                        tournaments, and gaming community.
+
+                    </p>
+
+
+                    <ul class="list-unstyled d-flex gap-4 mt-4">
+                        <li class="mb-2">
+                            <a class="link-secondary text-decoration-none" href="#">
+                                <i class="fa-brands fa-discord"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="link-secondary text-decoration-none" href="#">
+                                <i class="fa-brands fa-instagram">
+                                </i>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="link-secondary text-decoration-none" href="#">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a class="link-secondary text-decoration-none" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="text-light mb-3 fs-5">Games</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">VALORANT</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">League of Legends</a>
+                        </li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">CS:GO</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Dota 2</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Apex Legends</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="text-light mb-3 fs-5">Tournaments</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Upcoming Events</a>
+                        </li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Live Matches</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Results</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Rankings</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Schedule</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h6 class="text-light mb-3 fs-5">Support</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Help Center</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Bug Reports</a></li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Feature Requests</a>
+                        </li>
+                        <li class="mb-2"><a class="link-secondary text-decoration-none" href="#">Community
+                                Guidelines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top py-4 mt-4 row justify-content-center justify-content-md-between text-secondary fs-6 gx-md-3">
+                <span class="col-md-6 w-auto flex-grow-0">&copy; 2025 GameArena. All rights reserved.</span>
+                <ul class="list-unstyled w-auto d-flex gap-4 mb-0 col-md-6">
+                    <li class="">
+                        <a class="link-secondary text-decoration-none" href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="link-secondary text-decoration-none" href="#">
+                            Terms of Service
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="link-secondary text-decoration-none" href="#">
+                            Cookie Policy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

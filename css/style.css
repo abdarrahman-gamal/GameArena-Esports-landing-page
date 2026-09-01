@@ -1,0 +1,373 @@
+:root {
+    --bs-border-color: #1e2939;
+    --bs-primary-rgb: 203, 254, 28;
+    --bs-dark-rgb: 11, 14, 19;
+    --bs-body-font-family: "Chakra Petch", sans-serif;
+    --color-green-400: oklch(79.2% .209 151.711);
+    --bs-gradient: linear-gradient(90deg, rgb(var(--bs-primary-rgb)), var(--color-green-400));
+    --tri-size: 14px;
+    --card-dark: #1A1A1A;
+    --contact-bg: #0E141F;
+}
+
+
+body::selection {
+    background-color: rgb(var(--bs-primary-rgb));
+    color: rgb(var(--bs-dark-rgb));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Days One", sans-serif;
+}
+
+
+.navbar-nav {
+    --bs-nav-link-hover-color: rgb(var(--bs-primary-rgb));
+}
+
+.navbar {
+    --bs-navbar-color: #ffff;
+    --bs-navbar-toggler-focus-width: 0px;
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(var(--bs-primary-rgb));
+    --bs-btn-hover-bg: color-mix(in oklab, rgb(var(--bs-primary-rgb))80%, transparent);
+    --bs-btn-active-bg: color-mix(in oklab, rgb(var(--bs-primary-rgb))80%, transparent);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: rgb(var(--bs-primary-rgb));
+    --bs-btn-border-color: rgb(var(--bs-primary-rgb));
+    --bs-btn-hover-color: rgb(var(--bs-dark-rgb));
+    --bs-btn-hover-bg: rgb(var(--bs-primary-rgb));
+    --bs-btn-hover-border-color: rgb(var(--bs-primary-rgb));
+    --bs-btn-active-bg: rgb(var(--bs-primary-rgb));
+    --bs-btn-active-border-color: rgb(var(--bs-dark-rgb));
+    --bs-btn-active-color: rgb(var(--bs-dark-rgb));
+}
+
+
+
+/* ------- الجزء دا اخذته نسخ بعد ما فهمته */
+
+/* 1. نجهز الزر الأساسي ونمنع خروج اللمعة خارج حدوده */
+.btn-shine {
+    position: relative;
+    overflow: hidden;
+    /* هذا السطر السحري يمنع اللمعة من الظهور خارج الزر */
+}
+
+/* 2. كود اللمعة الذي استفسرت عنه */
+.btn-shine::before {
+    content: "";
+    background: linear-gradient(90deg, #0000, #fff6, #0000);
+    width: 100%;
+    height: 100%;
+    transition: left .6s ease-in-out;
+    /* حركة ناعمة */
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+/* 3. جعل اللمعة تتحرك عند وضع الماوس (Hover) */
+.btn-shine:hover::before {
+    left: 100%;
+}
+
+/* ---- إنتهى ---- */
+
+.navbar-toggler:hover {
+    color: rgb(var(--bs-primary-rgb));
+}
+
+.hover-text-primary:hover {
+    color: rgb(var(--bs-primary-rgb)) !important;
+}
+
+.hero {
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.img {
+    height: 372px;
+}
+
+.box-card {
+    bottom: -12px;
+    left: -12px;
+}
+
+.hero {
+    background-image: url(../img/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.opacity-80 {
+    opacity: 85%;
+}
+
+.tri-t {
+    width: 0px;
+    height: 0px;
+    border-top: var(--tri-size) solid rgb(var(--bs-primary-rgb));
+    border-bottom: var(--tri-size) solid transparent;
+    border-left: var(--tri-size) solid rgb(var(--bs-primary-rgb));
+    border-right: var(--tri-size) solid transparent;
+    top: calc(-1 * var(--tri-size));
+    left: calc(-1 * var(--tri-size));
+    transition: .2s;
+
+
+}
+
+.tri-b {
+    width: 0px;
+    height: 0px;
+    border-top: var(--tri-size) solid transparent;
+    border-bottom: var(--tri-size) solid rgb(var(--bs-primary-rgb));
+    border-left: var(--tri-size) solid transparent;
+    border-right: var(--tri-size) solid rgb(var(--bs-primary-rgb));
+    bottom: calc(-1 * var(--tri-size));
+    right: calc(-1 * var(--tri-size));
+    transition: .2s;
+
+}
+
+
+.tri-out:hover .tri-t {
+    top: var(--tri-size);
+    left: var(--tri-size);
+}
+
+.tri-out:hover .tri-b {
+    bottom: var(--tri-size);
+    right: var(--tri-size);
+}
+
+.break::after {
+    content: "";
+    background-image: linear-gradient(90deg, rgb(var(--bs-primary-rgb)), transparent);
+    height: 2px;
+    width: 64px;
+    left: 100%;
+}
+
+.break::before {
+    content: "";
+    background-image: linear-gradient(270deg, rgb(var(--bs-primary-rgb)), transparent);
+    height: 2px;
+    width: 64px;
+    left: 100%;
+}
+
+#our-games {
+
+    padding-top: 120px;
+    padding-bottom: 64px;
+
+}
+
+.badge {
+    background-color: rgba(var(--bs-dark-rgb), .75);
+}
+
+.upper {
+    top: -20px;
+    left: 24px;
+    transition: .2s;
+}
+
+.hover-border-apear:hover .upper {
+    top: 10px;
+}
+
+.hover-border-apear {
+    transition: .1s;
+}
+
+.hover-border-apear:hover {
+    --bs-border-color: rgb(var(--bs-primary-rgb));
+}
+
+.gradaint {
+    background-image: linear-gradient(0deg, rgba(var(--bs-primary-rgb), .7), transparent);
+    bottom: -50%;
+    transition: .2s;
+}
+
+.hover-border-apear:hover .gradaint {
+    bottom: 0px;
+}
+
+.hover-border-apear img {
+    transition: .2s;
+
+}
+
+.hover-border-apear:hover img {
+    transform: scale(120%);
+}
+
+.text {
+    bottom: 0;
+}
+
+.arrow:hover {
+    color: rgb(var(--bs-primary-rgb));
+    --bs-border-color: rgb(var(--bs-primary-rgb));
+}
+
+#what-we-do {
+    padding-top: 120px;
+    padding-bottom: 42px;
+}
+
+.aspect-square {
+    aspect-ratio: 1 / 1;
+}
+
+.bg-card-dark {
+    background-color: var(--card-dark);
+}
+
+.bg-as-border {
+    background-color: var(--bs-border-color);
+}
+
+.hover-border-apear:hover i {
+    color: black;
+}
+
+.glow {
+    height: 3px;
+    max-width: 700px;
+    display: block;
+    background-image: linear-gradient(90deg, transparent, rgb(var(--bs-primary-rgb)), transparent);
+    box-shadow: 0px 0px 18px rgb(var(--bs-primary-rgb));
+}
+
+.h-96 {
+    height: 96px;
+}
+
+.slide-group {
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slide-group-r {
+    animation: scroll-r 15s linear infinite;
+}
+
+@keyframes scroll-r {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.grade {
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(90deg, rgb(var(--bs-dark-rgb)), transparent 10%, transparent 90%, rgb(var(--bs-dark-rgb)));
+}
+
+#sliders {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-image: radial-gradient(closest-side, rgb(var(--bs-primary-rgb)), rgba(var(--bs-primary-rgb), .4), transparent);
+}
+
+#our-team {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.right {
+    writing-mode: vertical-lr;
+    direction: rtl;
+}
+
+.fs-smaller {
+    font-size: 11px;
+}
+
+.color,
+.gray {
+    inset: 0;
+}
+
+/* النسخة الرمادية */
+.gray {
+    filter: grayscale(1);
+}
+
+/* النسخة الملونة مخفية */
+.color {
+    clip-path: inset(100% 0 0 0);
+
+    transition: clip-path .5s ease;
+}
+
+/* عند الهوفر يبدأ اللون بالظهور من الأسفل */
+.player-card:hover .color {
+    clip-path: inset(0 0 0 0);
+}
+
+#get-in-touch {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--contact-bg);
+}
+
+.bg-field {
+    background-color: #364153;
+}
+
+
+.form-control:focus {
+    background-color: #364153;
+    box-shadow: 0 0 0 0;
+    border: rgb(var(--bs-primary-rgb)) 1px solid;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0;
+    border: rgb(var(--bs-primary-rgb)) 2px solid;
+}
+
+.form-control {
+    resize: none;
+    padding: 12px;
+}
+
+
+.link-secondary:focus, .link-secondary:hover {
+    color: RGB(var(--bs-primary-rgb)) !important;
+}
